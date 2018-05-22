@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>DOM and Java Script</title>
+	<link href="cssfiles/stylingfile.css" type="text/css" rel="stylesheet" />
+	<script src="javascript/controlOperations.js"></script> 
+
+  
+
+  
+</head>
+
+<body>
+
+	<div id="container">
+			<div id="header">
+				<h1 align="center"> CS 270- Lab 3 </h1> 
+				<hr>
+			</div>
+			
+	
+			<div id="sidebar">
+				<br />
+				<p> JavaScript Questions  </p>
+				<form>
+					<fieldset form="Movies information">
+					<legend>Answer The following:</legend>
+						<button type="button" id="guessNumber">Guess The Number</button>  <br/ > <br />
+						<button type="button" id="generatePlate">Random License Plate</button> 
+					</fieldset>
+				</form>
+
+				
+				<br />
+				<p> Movies Information Questions  </p>
+				<form>
+					<fieldset form="Movies information">
+					<legend>Find The following Data:</legend>
+						Highest Gross <input type="text" name="HighestGroos" id="HighestGrossText"> <button type="button" id="HighestGroosButton">Find Highest Gross</button>  <br/ > <br />
+						Eldest Movie <input type="text" name="EldestMovie" id="EldestMovieText"> <button type="button" id="EldestMovieButton">Find Eldest Movie</button> 
+					</fieldset>
+				</form>
+
+				<br />
+				<br />
+				Cars Information Questions <br /> <br />
+				<form>
+							<fieldset form="Car information">
+							<legend>Find the follwoing Data:</legend>
+								<button type="button" id="ItalyCar">Cars from Italy only</button>  <br/ >
+								<button type="button" id="TableColor">Change Table Colors</button> <br />
+								<button type="button" id="getPictures">Extract Pictures</button> 
+								<button type="button" id="ShiftColumns">Shift columns</button> 
+							</fieldset>
+						</form>
+
+			</div>
+			
+			<div id="content">
+				  	    <h1>Movies Information</h1>
+		  
+						<table id="rwd-table">
+						  <tbody><tr>
+							<th>Movie Title</th>
+							<th>Genre</th>
+							<th>Year</th>
+							<th>Gross</th>
+						  </tr>
+						  <tr>
+							<td data-th="Movie Title">Star Wars</td>
+							<td data-th="Genre">Adventure, Sci-fi</td>
+							<td data-th="Year">1977</td>
+							<td data-th="Gross">$460,935,665</td>
+						  </tr>
+						  <tr>
+							<td data-th="Movie Title">Howard The Duck</td>
+							<td data-th="Genre">"Comedy"</td>
+							<td data-th="Year">1986</td>
+							<td data-th="Gross">$16,295,774</td>
+						  </tr>
+						  <tr>
+							<td data-th="Movie Title">American Graffiti</td>
+							<td data-th="Genre">Comedy, Drama</td>
+							<td data-th="Year">1973</td>
+							<td data-th="Gross">$115,000,000</td>
+						  </tr>
+						</tbody></table>  
+
+						<br />
+						
+						
+						<br />
+						<h1> Cars Information </h1>
+						
+						<table id="carTable">
+							<tr>
+								<th>Name</th>
+								<th>Origin</th>
+								<th>Photo</th>
+							</tr>
+							<tr>
+								<td>Bugatti Veyron Super Sport</td>
+								<td>Molsheim, Alsace, France</td>
+										
+								<td><img src="images/Bugatti.jpg" alt="" border=3 height=150 width=300>
+									</img></td>
+							</tr>
+							<tr>
+								<td>SSC Ultimate Aero TT  TopSpeed</td>
+								<td>United States</td>
+								<td border=3 height=100 width=100>
+									<img src="images/SSCUltimate.jpg" alt="" border=3 height=150 width=300>
+									</img>
+								</td>
+							</tr>
+							<tr>
+								<td>Koenigsegg CCX</td>
+								<td>Ängelholm, Sweden</td>
+								<td border=4 height=100 width=300><img src="images/KoenigseggCCX.jpg" alt="" border=3 height=150 width=300>
+									</img></td>
+							</tr>
+							<tr>
+								<td>Saleen S7</td>
+								<td>Irvine, California, United States</td>
+								<td border=3 height=100 width=100><img src="images/Saleen.jpg" alt="" border=3 height=150 width=300></td>
+							</tr>
+							<tr>
+								<td> McLaren F1</td>
+								<td>Surrey, England</td>
+								<td border=3 height=100 width=100><img src="images/McLarenF1.jpg" alt="" border=3 height=150 width=300></td>
+							</tr>
+							<tr>
+								<td>Ferrari Enzo</td>
+								<td>Maranello, Italy</td>
+								<td border=3 height=100 width=100><img src="images/FerrariEnzo.jpg" alt="" border=3 height=150 width=300></td>
+							</tr>
+							<tr>
+								<td> Pagani Zonda F Clubsport</td>
+								<td>Modena, Italy</td>
+								<td border=3 height=100 width=100><img src="images/PaganiZonda.jpg" alt="" border=3 height=150 width=300></td>
+							</tr>
+						</table>
+						
+						<br />
+						
+						
+			</div>
+
+			<div id="footer">
+			
+				<h1 align="center"> Good luck for you </h1> 
+				
+			</div>
+	</div>
+
+
+	
+	</body>
+
+
+</html>

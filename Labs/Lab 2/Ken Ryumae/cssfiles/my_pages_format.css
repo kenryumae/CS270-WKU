@@ -1,0 +1,25 @@
+body {
+    background-color: lightblue;
+}
+
+h1 {
+	color: navy;
+	font-family: Arial;
+}
+
+h2 {
+	color: orange;
+}
+
+hr {
+	border-width: 2.5px;
+	color: black;
+}
+
+p {
+	font-family: Serif;
+}
+
+table, th, td {
+   border: 1px solid black;
+}

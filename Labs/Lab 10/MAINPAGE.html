@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button1 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #4CAF50;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    width: 100%;
+}
+.button1:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+
+
+#rcorners2 {
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+    padding: 20px; 
+    width: 80%;
+    
+}
+
+</style>
+</head>
+<body>
+
+<h2>Database Operation</h2>
+<form action=".php">
+      <fieldset id="rcorners2">
+          <legend>Build Data Base</legend>
+               <input type="submit" class="button button1" value ="Create DataBase: SalesDB"> </button> 
+      </fieldset>    
+</form>
+
+<br />
+
+<form action=".php">
+      <fieldset id="rcorners2">
+          <legend>Build a Table</legend>
+              <input type="radio" name="buildTable" value="Salespeople" checked> Build Salespeople Table<br>
+                <input type="radio" name="buildTable" value="Customers"> Build Customers Table<br>
+                <input type="radio" name="buildTable" value="Orders"> Build Orders Table<br><br>
+                <input type="submit" class="button button1" value ="Build Table">
+      </fieldset>    
+</form> 
+
+<br />
+<form action=".php">
+    <fieldset id="rcorners2">
+       <legend>Insert Data Into Table</legend>
+     		<input type="radio" name="InsertIntoTable" value="Salespeople" checked> Insert Data into Salespeople Table<br>
+            <input type="radio" name="InsertIntoTable" value="Customers"> Insert Data into Customers Table<br>
+            <input type="radio" name="InsertIntoTable" value="Orders"> Insert Data into Orders Table<br><br>
+            <input type="submit" class="button button1" value ="Insert Data Into Table">
+
+    </fieldset>    
+</form> 
+
+<form action=".php">
+    <fieldset id="rcorners2">
+       <legend>Select Data/Query (Results)</legend>
+     		<input type="radio" name="SelectedData" value="LondonCustomers" checked> Show all London's Customers<br>
+            <input type="radio" name="SelectedData" value="SalesPeople"> Show all Sales People.<br>
+            <input type="radio" name="SelectedData" value="HighestCommission"> Show Salesman with highest commission<br>
+            <input type="radio" name="SelectedData" value="CustomersCity"> Group Customers based on city<br>
+            <input type="radio" name="SelectedData" value="HighestCommission"> Show Salesman with highest commission<br>
+            <input type="radio" name="SelectedData" value="CustomersNoRating"> Customers who has/have not yet been assigned a rating yet<br>
+            <input type="radio" name="SelectedData" value="Order2003to2006"> Order between 2003 and 2006<br>
+            <input type="radio" name="SelectedData" value="CustomerWhoPlaceOrder"> Customers who has/have not place any order<br>
+			<input type="radio" name="SelectedData" value="CustomerWithE"> Total amount of commission for every salesperson whom his name includes the letter e as a second letter   <br>
+			<input type="radio" name="SelectedData" value="CustomerWhoPlaceOrder"> Customers’ names and cities’ names based on customer rating in a descending order <br>
+            <input type="submit" class="button button1" value ="Show Results">
+
+    </fieldset>    
+</form> 
+
+
+
+
+</body>
+</html>
