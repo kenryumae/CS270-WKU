@@ -1,0 +1,103 @@
+img.bannerlogo {
+	height: 4%;
+    width: 12%;
+}
+
+img.user_image {
+	height: 50px;
+	width: 50px;
+    border-radius: 50%;
+	border: #D7D7D7 4px solid;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+.user_info {
+	float: right;
+}
+
+body {
+	font-family: "arial";
+}
+
+#home{
+	height: 17%;
+	width: 17%;
+	padding-right: 1em;
+}
+
+#tasks{
+	height: 20%;
+	width: 20%;
+	padding-right: 1em;
+}
+
+#calendar{
+	height: 14%;
+	width: 14%;
+	padding-right: 1em;
+}
+
+#grades{
+	height: 14%;
+	width: 14%;
+	padding-right: 1em;
+}
+
+#userdirectory{
+	height: 14%;
+	width: 14%;
+	padding-right: 1em;
+}
+
+#courses{
+	height: 13%;
+	width: 13%;
+	padding-right: 1em;
+}
+
+.main {
+	top: 75px;
+	left: 160px;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+
+.bannerarea {
+	background-color: #3894AF;
+	position: absolute;
+	right: 0;
+	left: 0;
+	top: 0;
+	height: 75px;
+}
+
+.sidebar {
+    height: 100%;
+    width: 160px;
+	float: left;
+    background-color: #111;
+	position:absolute;
+    left:0; 
+	top: 75px; 
+	bottom: 0;
+}
+
+.sidebar a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #6A6A6A;
+    display: block;
+	right: 0;
+}
+
+.sidebar a:hover {
+    color: #f1f1f1;
+}
+
+.sidebar a.active {
+  background-color: #2F2F2F;
+  color: white;
+}

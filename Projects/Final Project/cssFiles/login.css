@@ -1,0 +1,65 @@
+/*CSS for the login page*/
+
+body {
+	font-family: "arial";
+	background-color: #7F7F7F;
+	position: relative;
+}
+
+img.loginWhiteboard {
+	margin-left: auto;
+    margin-right: auto;
+	display: block;
+	height: 10%;
+    width: 30%;
+	
+}
+
+form {
+    border: 3px solid #f1f1f1;
+	width: 50%;
+	margin-left: auto;
+    margin-right: auto;
+	background-color: white;
+	text-align: center;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+input[type=text], input[type=password] {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 10px auto;
+    margin-right: auto;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+input[type=button] {
+    background-color: #162D8D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px;
+	margin-left: auto;
+    margin-right: auto;
+    border: none;
+    cursor: pointer;
+    width: 80%;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+#login {
+	padding: 16px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+

@@ -1,0 +1,203 @@
+body {
+	background-color: 			#a2b9bc;
+}
+
+#quizcontents {
+	width:						80%;
+	height:						80%;
+	position:	 				absolute;
+    top: 						50%;
+    left: 						50%;
+    transform: 					translateX(-50%) translateY(-50%);
+	border-radius: 				20px;
+	background: 				#6b5b95;
+}
+
+#changeContent{
+	display:					block;
+}
+
+#top {
+	float:						bottom;
+	text-align: 				center;
+    left: 						50%;
+}
+
+#questionandanswer{
+	float:						bottom;
+	text-align: 				center;
+    top: 						50%;
+    left: 						50%;
+}
+
+h1 {
+	font-family: 				Arial, Helvetica, sans-serif;
+	text-align: 				center;
+}
+
+.slide{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+.active-slide{
+  opacity: 1;
+  z-index: 2;
+}
+.quizcontents{
+  position: relative;
+  height: 200px;
+  margin-top: 40px;
+}
+
+button.bottomButtons {
+	float:						bottom;
+	width:						12.5%;
+	height:						15%;
+	border-radius: 				15px;
+	margin:						2%;
+    border: 					4px solid #b2ad7f;
+	background-color:			#a2b9bc;
+	font-size:					75%;
+	font-family: 				Arial, Helvetica, sans-serif;
+	
+}
+
+button.bottomButtons:hover {
+	background-color: 			#878f99;
+}
+
+button.startingPageContents {
+	float:						left;
+	width:						46%;
+	height:						40%;
+	border-radius: 				20px;
+	margin:						2%;
+    border: 					4px solid #b2ad7f;
+	background-color:			#a2b9bc;
+	font-size:					350%;
+	font-family: 				Arial, Helvetica, sans-serif;
+	
+}
+
+button.startingPageContents:hover {
+	background-color: 			#878f99;
+}
+
+
+/*
+radio.quizContents {
+	float:						left;
+	width:						46%;
+	height:						100%;
+	border-radius: 				20px;
+	margin:						2%;
+    border: 					4px solid #b2ad7f;
+	background-color:			#a2b9bc;
+	font-size:					350%;
+	font-family: 				Arial, Helvetica, sans-serif;
+	
+}
+
+radio.quizContents:hover {
+	background-color: 			#878f99;
+}
+
+radio.quizContents:focus {
+	background-color: 			red;
+}
+*/
+
+/*===================================================================================================*/
+
+/* The container */
+.quizContents {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.quizContents input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.quizContents:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.quizContents input:checked ~ .checkmark {
+    background-color: #2196F3;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.quizContents input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.quizContents .checkmark:after {
+ 	top: 9px;
+	left: 9px;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background: white;
+}
+
+/*===================================================================================================*/
+
+.question {
+	text-align: 				center;
+	font-size:					150%;
+	font-family: 				Arial, Helvetica, sans-serif;
+}
+
+button.submitquizbutton {
+	float:						right;
+	width:						20%;
+	height:						50%;
+	border-radius: 				20px;
+	margin:						2%;
+    border: 					4px solid #b2ad7f;
+	background-color:			#41acf4;
+	font-size:					100%;
+	font-family: 				Arial, Helvetica, sans-serif;
+}
+
+button.submitquizbutton:hover {
+	background-color: 			#4286f4;
+}
